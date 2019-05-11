@@ -1,6 +1,6 @@
-#Homework 1
+# Homework 1
 
-###Arrays & Strings:
+### Arrays & Strings:
 
 ● Implement the function: Boolean isStringPermutation(String s1, String s2)
 
