@@ -19,23 +19,21 @@ array whose sum equals the target.
 ### Stacks and Queues:
 
 ● Implement the Stack class from scratch. You will need the following methods. 
+
 ○ push() 
 ■ Pushes an integer on top of the stack. 
-○ pop() ■ Removes what is on the top of the stack, and returns that value to the 
-caller. 
-○ top() ■ Looks at the top value, and returns it. Does not manipulate the stack. 
+
+○ pop()
+■ Removes what is on the top of the stack, and returns that value to the 
+caller.
+
+○ top()
+■ Looks at the top value, and returns it. Does not manipulate the stack. 
+
 ○ isEmpty() 
 ■ Returns a True or False if the stack is Empty or not, respectively. 
-Tips ● When you implement a Stack class and create the first instance of it, it will be an empty 
-Stack. For example: In Python: myStack = Stack(), or in Java: Stack myStack = new Stack() 
-○ myStack should be initialized to an empty stack. 
-● When you call myStack.push(a_number) 
-○ The Stack should longer be empty, it should have a size of 1, with a_number as it’s top element. 
-Sample trace in python 2 after you have implemented Stack: 
-myStack = Stack() myStack.push(42) print “Printing top of stack after a push (should be 42): ”, myStack.top() 
-https://docs.google.com/document/d/12eMjBLOJkJg7SUllQy8bCKItFouJ2oGJQZRMoHeO1PU/edit# 5/9 
-5/22/2019 Uber Career Prep 2019 - Homework Assignment 1 - Google Docs 
-print “Printing size (should be 1): ”, myStack.size() popped_value = myStack.pop(42) print “Printing the popped value (should be 42): ” , popped_value # The pop operation removes (pops) off the value from the stack, # So now the stack is empty since there was only one item in it. print “Printing size (should be 0): ”, myStack.size() 
+
+
 ● Implement a Stack Test that makes you comfortable with your implementation. (Example above) You’re encouraged to write more rigorous test cases. 
 ● What happens if you pop off more items than you push? Write a test for this. 
 ● Add a new method to you Stack class called min(), which returns the minimum element of the stack in O(1) time, as opposed to O(n) time. 
